@@ -16,36 +16,36 @@ export class ProfileService {
   projects:any = [
     {
       id: 1,
-      title: 'Read data from Google spreadsheet in Angular',
+      title: 'E commerce application CRUD',
       desc: '',
       livedemo: 'https://mehulk05.github.io/MyShop/#/',
       githurl: 'https://github.com/mehulk05/MyShop',
       mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
       imgUrl: 'assets/images/z1.png',
-      tech: 'Angular 10 , Google SpreadsheetApi'
+      tech: 'Express ,Node.js , MongoDB'
     },
 
     {
       id: 2,
-      title: 'Blog App Using MERN Stack',
+      title: 'Netflix Clone',
       desc: '',
       livedemo: 'https://mehulk05.github.io/Blogapp-using-MERN/#/',
       githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
       mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
       imgUrl: 'assets/images/z26.png',
-      tech: 'React, Node, MongoDB, Express'
+      tech: ' Node, MongoDB, Express , SQL'
     },
 
 
     {
       id: 3,
-      title: 'CRUD operation using MEAN stack',
+      title: 'Gesture-based system using python',
       desc: '',
       livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
       githurl: 'https://github.com/mehulk05/Blog-using-mean',
       mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
       imgUrl: 'assets/images/z27.png',
-      tech: 'Angular 10, Node, MongoDB, Express'
+      tech: 'Python, openCV, mediaPipe'
     },
 
     {
@@ -181,43 +181,43 @@ export class ProfileService {
     },
 
   ]
-  about2 = `Software Developer with 2.5+ years of experience .
-  Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Angular 2+ All versions, React, Javascript,  Node JS and UI with Responsive Designs .
-  Have good understanding of Python, Jquery, Bootstrap, MongoDB, Firebase, and MYSQL`
+  about2 = `Software Developer with 1+ years of experience .
+  Worked on few major features of our product using Node.js and Angular which reduced the human time approximately 70%.
+  Expertise in Node.js, Express, Javascript, Data strucures and Python.
+  Have good understanding of  Bootstrap, MongoDB, Git and MYSQL`
 
   about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
-  resumeurl = "https://docs.google.com/document/d/1WODFuhIzQw2AXPsjt6f3rs-EDWhdhT8s89fOTrGRh70/edit?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1-LM4ctE5DSQ_SDiXFLYXpin_cR2LINzN/view?usp=drive_link"
 
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR 2+',
+      'skill': 'NODE JS',
       'progress': '85%'
     },
     {
       'id': '2',
-      'skill': 'NODE JS',
+      'skill': 'Data structures & Algorithms',
       'progress': '80%'
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT JQUERY',
+      'skill': 'Python',
       'progress': '80%'
     },
     {
       'id': '4',
-      'skill': 'SQL , MYSQL,MONOGO, FIREBASE',
+      'skill': 'MYSQL,MONOGO',
       'progress': '75%'
     },
     {
       'id': '5',
-      'skill': 'REACT JS',
+      'skill': 'GIT',
       'progress': '75%'
     },
     {
       'id': '6',
-      'skill': 'PYTHON,JAVA',
+      'skill': 'JAVA, Operating Systems',
       'progress': '70%'
     }
   ];
@@ -226,55 +226,60 @@ export class ProfileService {
   educationData: any = [
     {
       'id': '1',
-      'from_to_year': '2015 - 2019',
+      'from_to_year': '2019 - 2023',
       'education': 'Bachelor\'s Degree',
       'stream': 'Bachelor of Engineering',
-      'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.
-Won the Best Student Award 3 times for excellent Academic records at College.
-Maintained above 9.1 spi in every semester of college academic .`,
-      'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD'
+      'info': `UCEOU  is one of  Telangan's top 3 ranked colleges.
+Completed B.E in Computer Engineering with 8.3 CGPA.
+Won the Best Major Project Award  for excellent Academic Technical project at College(CSE Dept).
+Won the championship trophy in Badminton Tournament conducted in our college Sportsmania2k23`,
+      'institution': 'University College of engineering, Osmania University, Hyderabad'
     },
     {
       'id': '2',
-      'from_to_year': '2013 - 2015',
+      'from_to_year': '2017 - 2019',
       'education': 'Higher Secondary',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
+      'stream': 'Maths, Physics & Chemistry',
+      'institution': 'Sri Gayatri Junior College',
       'info': `The High School was mainly focus on the bases of science, mathematics, and Chemistry
-There was also a good base on physics, mathematics and chemistry.
-Completed my high school with 78%.`
+Secured a rank of 1206 from over 1.5 lakh attempted students in TSEAMCET competative exam.
+In first year got stage 3rd rank in IPE examinations scoring 465/470 marks`
     },
     {
       'id': '3',
-      'from_to_year': '2012 - 2013',
+      'from_to_year': '2016 - 2017',
       'education': 'Secondary  School',
       'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
+      'institution': 'T.S Model School',
       'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
-Completed my Secondary school with 84%.`
+Completed my Secondary school with 9.7 CGPA`
     }
   ];
   exprienceData: any = [
     {
       id: 4,
-      company: 'Crest Data System',
-      location: 'Ahmedabad',
-      timeline: 'Aug 2021 to Present',
+      company: 'AiQod Enterprises startup',
+      location: 'Pune, Maharastra',
+      timeline: 'December 2023 to Present',
       role: 'Software Developer',
-      work: 'Working as a full stack developer .Responsible for handling the UI in React and Managing the api calls in python Flask.'
+      work: `Technologies : Angular , Node JS , MongoDB .
+      Working as a full stack developer, developed on a crucial feature which helps to Extract data from Invoices using cropperjs library, which efficiently decreased the manual extracting time from 30 min to 2 min i.e 1500% reduced time .
+      Worked on improving Api performance using indexing and optimising the code .
+      Implemented pagination where data is being loaded bulk, which inturn enhanced user experience and api performance `
 
     },
     {
       id: 3,
-      company: 'Indianic Info Tech',
-      location: 'Ahmedabad',
-      timeline: 'Feb 2021 to June 2021',
-      role: 'Software Developer',
-      work: `Technologies : Angular , Node JS , MongoDB .
-      Worked on the web application built in Angular for different business and Campaigns .
-      Contributed on developing the admin dashboard with different charts and insights for the application.`
-    },
+      company: 'BHEL',
+      location: 'Remote',
+      timeline: 'march 2023 to June 2023',
+      role: 'Research Intern',
+      work: `Developed a Receiver Autonomous Integrity Monitoring (RAIM) method for GNSS receivers, ensuring the accuracy and reliability of GPS positioning .
+
+              Implemented efficient C and C++ code optimized for low memory usage and high-speed processing .
+
+             Achieved 91 accuracy rate in analyzing and interpreting research results, demonstrating strong analytical skills`
+    }
   //   {
   //     id: 2,
   //     company: 'Growth99',
@@ -288,21 +293,21 @@ Completed my Secondary school with 84%.`
   // `
   //   },
 
-    {
-      id: 1,
-      company: 'Tata Consultancy Services',
-      location: 'Gandhinagar and Pune',
-      timeline: 'June 2019 - Jan 2021',
-      role: 'Assistant System Engineer Trainee',
-      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr .
+  //   {
+  //     id: 1,
+  //     company: 'Tata Consultancy Services',
+  //     location: 'Gandhinagar and Pune',
+  //     timeline: 'June 2019 - Jan 2021',
+  //     role: 'Assistant System Engineer Trainee',
+  //     work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr .
 
-  Project 1 : Worked on uploading two excel sheets with bulk of data and finding the matches for each business .
+  // Project 1 : Worked on uploading two excel sheets with bulk of data and finding the matches for each business .
 
-  Project 2 : Worked on indexing the search results inside the application with bulk of data using Apache Solr and configuring the server with cron jobs and shell scripts .
+  // Project 2 : Worked on indexing the search results inside the application with bulk of data using Apache Solr and configuring the server with cron jobs and shell scripts .
 
-  Worked on ranking the search results based on various criteria,features and delivering the accurate results based on generated scores.
-  `
-    },
+  // Worked on ranking the search results based on various criteria,features and delivering the accurate results based on generated scores.
+  // `
+  //   },
 
 
   ]
