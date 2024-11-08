@@ -15,24 +15,35 @@ export class ProfileService {
 
   projects:any = [
     {
+      id: 0,
+      title: 'Doc Nest - where experts and patients meet!',
+      desc: `Developed a healthcare application for finding nearby expert doctors with filters based on User preferences, ,
+affordability, and experience. Integrated peer messaging, websockets for realtime chat. Caching for faster performance. kafka for Load Distribution Across Consumers. Used gemini ai for live quries`,
+      livedemo: '',
+      githurl: 'https://github.com/karthik443/docNest_BE',
+      mediumlink: '',
+      imgUrl: 'assets/images/docnest.png',
+      tech: 'Express ,Node.js , MongoDB , Kafka, Websockets, caching'
+    },
+    {
       id: 1,
       title: 'E commerce application CRUD',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/MyShop/#/',
-      githurl: 'https://github.com/mehulk05/MyShop',
-      mediumlink: 'https://itnext.io/read-data-from-google-spreadsheet-in-angular-209ee74b6cb4',
-      imgUrl: 'assets/images/z1.png',
+      desc: 'An Ecommerce application replicating real-world where users can shop, add to cart, order the items. Used SQL database for data storing. node js for backend server and nodemailer for authenticating users and ',
+      livedemo: '',
+      githurl: 'https://github.com/karthik443/E-commerce',
+      mediumlink: '',
+      imgUrl: 'assets/images/ecomerce1.png',
       tech: 'Express ,Node.js , MongoDB'
     },
 
     {
       id: 2,
       title: 'Netflix Clone',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/Blogapp-using-MERN/#/',
-      githurl: 'https://github.com/mehulk05/Blogapp-using-MERN',
+      desc: 'created an api which returns Movie information and designed nice user interface replicating the netflix',
+      livedemo: '',
+      githurl: 'https://github.com/karthik443/Netflix-clone',
       mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
-      imgUrl: 'assets/images/z26.png',
+      imgUrl: 'assets/images/netflix.png',
       tech: ' Node, MongoDB, Express , SQL'
     },
 
@@ -40,154 +51,33 @@ export class ProfileService {
     {
       id: 3,
       title: 'Gesture-based system using python',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/Blog-using-mean/#/',
-      githurl: 'https://github.com/mehulk05/Blog-using-mean',
-      mediumlink: 'https://itnext.io/crud-operation-using-mean-stack-7dfa2f51ec8c',
-      imgUrl: 'assets/images/z27.png',
+      desc: 'Python application where we can control the system using gestures. Used mediapipe framework for tracking the body points and Performed mathematical calucations for respective body movements. Integrated with subway surfers game',
+      livedemo: '',
+      githurl: 'https://github.com/karthik443/Gesture_based_system',
+      mediumlink: '',
+      imgUrl: 'assets/images/gesture_based_system.png',
       tech: 'Python, openCV, mediaPipe'
     },
 
     {
       id: 4,
       title: 'Multiroom Chat Application in Node JS',
-      desc: '',
-      livedemo: 'https://chatapp-using-node.herokuapp.com/',
-      githurl: 'https://github.com/mehulk05/Chat-app-using-Nodejs',
-      mediumlink: 'https://medium.com/weekly-webtips/building-a-multiroom-chat-application-in-node-js-8a8adca5acf2',
+      desc: 'Developed a chat application using websockets where I created rooms.used socketio library and Node js for backend ',
+      livedemo: 'https://chat-rooms-s9vj.onrender.com/',
+      githurl: 'https://github.com/karthik443/ChatApp',
+      mediumlink: '',
       imgUrl: 'assets/images/z23.png',
       tech: 'Node JS,Socket IO'
     },
 
-
-    {
-      id: 5,
-      title: 'Integrate Medium Blogs on your React App',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/Medium-Blog-On-React-App#/',
-      githurl: 'https://github.com/mehulk05/Medium-Blog-On-React-App',
-      mediumlink: 'https://javascript.plainenglish.io/how-to-add-medium-blogs-on-your-react-app-a3898a729aad',
-      imgUrl: 'assets/images/z4.png',
-      tech: 'React JS'
-    },
-
-
-
-    {
-      id: 6,
-      title: 'News App using ReactJS (Parsing XML to JSON)',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/NewsApp-using-React',
-      githurl: 'https://github.com/mehulk05/NewsApp-using-React',
-      mediumlink: 'https://codeburst.io/news-app-using-reactjs-f9752d7ab6ce',
-      imgUrl: 'assets/images/z24.png',
-      tech: 'React JS, XMl to JSON'
-    },
-
-
-
-    {
-      id: 7,
-      title: 'Medium-Like Blog App Using Angular 9 and Firebase',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/Blog-Book/',
-      githurl: 'https://github.com/mehulk05/Blog-Book',
-      mediumlink: 'https://codeburst.io/blogging-app-using-angular-9-and-firebase-98e36168d850',
-      imgUrl: 'assets/images/z21.png',
-      tech: 'HTML, Bootstrap, CSS, Angular-9, Firebase'
-    },
-
-
-
-    {
-      id: 8,
-      title: 'COVID 19 Tracker (Statistics) app Using Angularr',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/COVOID-19/',
-      githurl: 'https://github.com/mehulk05/COVOID-19',
-      mediumlink: 'https://codeburst.io/covoid-19-tracker-statistics-app-using-angular-2358347b3d1f',
-      imgUrl: 'assets/images/z2.png',
-      tech: 'Angular 10 ,Bootstrap,Javascript'
-    },
-
-
-    {
-      id: 9,
-      title: 'Weather App with React',
-      desc: '',
-      livedemo: 'https://mehulk05.github.io/React-Weather/',
-      githurl: 'https://github.com/mehulk05/React-Weather-App',
-      mediumlink: 'https://medium.com/analytics-vidhya/weather-app-with-react-adaa7268bbdb',
-      imgUrl: 'assets/images/z9.png',
-      tech: 'React, Open MAp Api'
-    },
-
-
-    {
-      id: 10,
-      title: 'Spring Boot + Angular 8 CRUD Example',
-      desc: '',
-      livedemo: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
-      githurl: 'https://github.com/mehulk05/Spring-Boot-Angular-8-CRUD-Example',
-      mediumlink: 'https://medium.com/analytics-vidhya/spring-boot-angular-8-crud-example-8aeafd47b54',
-      imgUrl: 'assets/images/z28.png',
-      tech: 'Angular8, Java ,Hibernate'
-    },
-
-
-    {
-      id: 11,
-      title: 'Personal Portfolio Using Angular',
-      desc: '',
-      livedemo: 'https://personal-portfolio0320.000webhostapp.com/',
-      githurl: 'https://github.com/mehulk05/Personal-Portfolio-Angular-Updated',
-      mediumlink: 'https://javascript.plainenglish.io/personal-portfolio-using-angular-8-and-bootstrap-5dde6fc7cf9b',
-      imgUrl: 'assets/images/z11.png',
-      tech: 'Angular ,Bootstrap'
-    },
-
-
-    {
-      id: 12,
-      title: 'Personal Portfolio Using Django',
-      desc: '',
-      livedemo: 'https://personal-portfolio0320.000webhostapp.com/',
-      githurl: 'https://github.com/mehulk05/My-Personal-Portfolio',
-      mediumlink: 'https://mehulkothari05.medium.com/personal-portfolio-using-django-dba49c355905',
-      imgUrl: 'assets/images/z12.png',
-      tech: 'Django'
-    },
-
-    {
-      id: 13,
-      title: 'Movie Success Prediction',
-      desc: '',
-      livedemo: 'https://mehulkothari05.medium.com/',
-      githurl: 'https://github.com/mehulk05',
-      mediumlink: 'https://mehulkothari05.medium.com/movie-success-prediction-a67d871a7b1',
-      imgUrl: 'assets/images/z13.png',
-      tech: 'Python, Machine Learning, Django Framework.'
-    },
-
-    {
-      id: 14,
-      title: 'Matrimonial Website',
-      desc: '',
-      livedemo: 'https://mehulkothari05.medium.com/',
-      githurl: 'https://github.com/mehulk05/Matrimonial-Website.git',
-      mediumlink: 'https://mehulkothari05.medium.com/matrimonial-website-9cd5247f477d',
-      imgUrl: 'assets/images/z14.png',
-      tech: 'HTML, CSS, Bootstrap, Jquery'
-    },
-
   ]
   about2 = `Software Developer with 1+ years of experience .
-  Worked on few major features of our product using Node.js and Angular which reduced the human time approximately 70%.
-  Expertise in Node.js, Express, Javascript, Data strucures and Python.
-  Have good understanding of  Bootstrap, MongoDB, Git and MYSQL`
+  Worked on 10+ major features of our product using Node.js and Angular which reduced the human time approximately 70%.
+  Skilled in backend development, low level design, data structures and efficient API design.
+  Have good understanding of  MongoDB, Git and MYSQL`
 
-  about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
-  resumeurl = "https://drive.google.com/file/d/1-LM4ctE5DSQ_SDiXFLYXpin_cR2LINzN/view?usp=drive_link"
+  about = " Recognized with the Pathfinder Award for leading backend team for our project and Employee of the Month for resolving critical circular dependency issue helping us remove 5000 lines of redunant code.."
+  resumeurl = "https://drive.google.com/file/d/1nrDNAtwQafi71YYQj3M5AZYGhFatKpBn/view"
 
   skillsData: any = [
     {
@@ -218,6 +108,16 @@ export class ProfileService {
     {
       'id': '6',
       'skill': 'JAVA, Operating Systems',
+      'progress': '70%'
+    },
+    {
+      'id': '7',
+      'skill': 'DBMS',
+      'progress': '75%'
+    },
+    {
+      'id': '8',
+      'skill': 'Angular',
       'progress': '70%'
     }
   ];
@@ -262,10 +162,11 @@ Completed my Secondary school with 9.7 CGPA`
       location: 'Pune, Maharastra',
       timeline: 'December 2023 to Present',
       role: 'Software Developer',
-      work: `Technologies : Angular , Node JS , MongoDB .
+      work: `Technologies :   Node JS , MongoDB , Angular ,Micro services ,Web sockets , GIT.
       Working as a full stack developer, developed on a crucial feature which helps to Extract data from Invoices using cropperjs library, which efficiently decreased the manual extracting time from 30 min to 2 min i.e 1500% reduced time .
-      Worked on improving Api performance using indexing and optimising the code .
-      Implemented pagination where data is being loaded bulk, which inturn enhanced user experience and api performance `
+      Worked on improving Api performance using indexing , sub-dividing apis for loose coupling and optimising the code .
+      Resolved ciritcal front end issue which helped us eliminate more than 5000 lines of redundant code .
+      Implemented  Caching  and pagination where data is being loaded bulk, which inturn enhanced user experience and api performance `
 
     },
     {
