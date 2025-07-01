@@ -113,7 +113,7 @@ export class ProfileService {
       'education': 'Master\'s Degree',
       'stream': 'Computer science and Information security',
       'info': `Secured a rank of 126 over 10,000 candidates.
-               Currently persuing `,
+               Currently pursuing `,
       'institution': 'International Institute of Information Technology, Hyderabad.'
     },
     {
