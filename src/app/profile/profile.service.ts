@@ -16,14 +16,13 @@ export class ProfileService {
   projects:any = [
     {
       id: 0,
-      title: 'Doc Nest - where experts and patients meet!',
-      desc: `Developed a healthcare application for finding nearby expert doctors with filters based on User preferences, ,
-affordability, and experience. Integrated peer messaging, websockets for realtime chat. Caching for faster performance. kafka for Load Distribution Across Consumers. Used gemini ai for live quries`,
+      title: 'Gesture-based system using python',
+      desc: 'Python application where we can control the system using gestures. Used mediapipe framework for tracking the body points and Performed mathematical calucations for respective body movements. Integrated with subway surfers game',
       livedemo: '',
-      githurl: 'https://github.com/karthik443/docNest_BE',
+      githurl: 'https://github.com/karthik443/Gesture_based_system',
       mediumlink: '',
-      imgUrl: 'assets/images/docnest.png',
-      tech: 'Express ,Node.js , MongoDB , Kafka, Websockets, caching'
+      imgUrl: 'assets/images/gesture_based_system.png',
+      tech: 'Python, openCV, mediaPipe'
     },
     {
       id: 1,
@@ -35,34 +34,10 @@ affordability, and experience. Integrated peer messaging, websockets for realtim
       imgUrl: 'assets/images/ecomerce1.png',
       tech: 'Express ,Node.js , MongoDB'
     },
-
     {
       id: 2,
-      title: 'Netflix Clone',
-      desc: 'created an api which returns Movie information and designed nice user interface replicating the netflix',
-      livedemo: '',
-      githurl: 'https://github.com/karthik443/Netflix-clone',
-      mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
-      imgUrl: 'assets/images/netflix.png',
-      tech: ' Node, MongoDB, Express , SQL'
-    },
-
-
-    {
-      id: 3,
-      title: 'Gesture-based system using python',
-      desc: 'Python application where we can control the system using gestures. Used mediapipe framework for tracking the body points and Performed mathematical calucations for respective body movements. Integrated with subway surfers game',
-      livedemo: '',
-      githurl: 'https://github.com/karthik443/Gesture_based_system',
-      mediumlink: '',
-      imgUrl: 'assets/images/gesture_based_system.png',
-      tech: 'Python, openCV, mediaPipe'
-    },
-
-    {
-      id: 4,
       title: 'Multiroom Chat Application in Node JS',
-      desc: 'Developed a chat application using websockets where I created rooms.used socketio library and Node js for backend ',
+      desc: 'Developed a real-time chat application using WebSockets, where users can join or create chat rooms and exchange messages instantly. Utilized the Socket.IO library with a Node.js backend to manage connections.',
       livedemo: 'https://chat-rooms-s9vj.onrender.com/',
       githurl: 'https://github.com/karthik443/ChatApp',
       mediumlink: '',
@@ -70,14 +45,22 @@ affordability, and experience. Integrated peer messaging, websockets for realtim
       tech: 'Node JS,Socket IO'
     },
 
-  ]
-  about2 = `Software Developer with 1+ years of experience .
-  Worked on 10+ major features of our product using Node.js and Angular which reduced the human time approximately 70%.
-  Skilled in backend development, low level design, data structures and efficient API design.
-  Have good understanding of  MongoDB, Git and MYSQL`
+    {
+      id: 3,
+      title: 'Netflix Clone',
+      desc: 'Created an api which returns Movie information based on search query and designed nice user interface replicating the Netflix. ',
+      livedemo: '',
+      githurl: 'https://github.com/karthik443/Netflix-clone',
+      mediumlink: 'https://itnext.io/blog-app-using-mern-stack-b0b4d69d7ea1',
+      imgUrl: 'assets/images/netflix.png',
+      tech: ' Node, MongoDB, Express , SQL'
+    },
 
-  about = " Recognized with the Pathfinder Award for leading backend team for our project and Employee of the Month for resolving critical circular dependency issue helping us remove 5000 lines of redunant code.."
-  resumeurl = "https://drive.google.com/file/d/1nrDNAtwQafi71YYQj3M5AZYGhFatKpBn/view"
+  ]
+  about2 = ['Software developer with 1.8 Years of experience, specializing in backend development.','Proficient in low-level design, efficient API development, and data structures & algorithms along with  Strong understanding of MongoDB, MySQL, and Git.']
+
+  about = `Proficient in low-level design, efficient API development, and data structures & algorithms along with  Strong understanding of MongoDB, MySQL, and Git.`
+  resumeurl = "https://drive.google.com/file/d/1_y24ANG502T7l8mBLKSGSW61ltyRl4Xj/view"
 
   skillsData: any = [
     {
@@ -126,6 +109,15 @@ affordability, and experience. Integrated peer messaging, websockets for realtim
   educationData: any = [
     {
       'id': '1',
+      'from_to_year': '2025 - 2027(expected)',
+      'education': 'Master\'s Degree',
+      'stream': 'Computer science and Information security',
+      'info': `Secured a rank of 126 over 10,000 candidates.
+               Currently persuing `,
+      'institution': 'International Institute of Information Technology, Hyderabad.'
+    },
+    {
+      'id': '2',
       'from_to_year': '2019 - 2023',
       'education': 'Bachelor\'s Degree',
       'stream': 'Bachelor of Engineering',
@@ -136,7 +128,7 @@ Won the championship trophy in Badminton Tournament conducted in our college Spo
       'institution': 'University College of engineering, Osmania University, Hyderabad'
     },
     {
-      'id': '2',
+      'id': '3',
       'from_to_year': '2017 - 2019',
       'education': 'Higher Secondary',
       'stream': 'Maths, Physics & Chemistry',
@@ -145,28 +137,30 @@ Won the championship trophy in Badminton Tournament conducted in our college Spo
 Secured a rank of 1206 from over 1.5 lakh attempted students in TSEAMCET competative exam.
 In first year got stage 3rd rank in IPE examinations scoring 465/470 marks`
     },
-    {
-      'id': '3',
-      'from_to_year': '2016 - 2017',
-      'education': 'Secondary  School',
-      'stream': 'Science and Mathematics',
-      'institution': 'T.S Model School',
-      'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
-Completed my Secondary school with 9.7 CGPA`
-    }
+//     {
+//       'id': '3',
+//       'from_to_year': '2016 - 2017',
+//       'education': 'Secondary  School',
+//       'stream': 'Science and Mathematics',
+//       'institution': 'T.S Model School',
+//       'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
+// Completed my Secondary school with 9.7 CGPA`
+//     }
   ];
   exprienceData: any = [
     {
       id: 4,
       company: 'AiQod Enterprises startup',
       location: 'Pune, Maharastra',
-      timeline: 'December 2023 to Present',
+      timeline: 'December 2023 to June 2025',
       role: 'Software Developer',
-      work: `Technologies :   Node JS , MongoDB , Angular ,Micro services ,Web sockets , GIT.
-      Working as a full stack developer, developed on a crucial feature which helps to Extract data from Invoices using cropperjs library, which efficiently decreased the manual extracting time from 30 min to 2 min i.e 1500% reduced time .
-      Worked on improving Api performance using indexing , sub-dividing apis for loose coupling and optimising the code .
-      Resolved ciritcal front end issue which helped us eliminate more than 5000 lines of redundant code .
-      Implemented  Caching  and pagination where data is being loaded bulk, which inturn enhanced user experience and api performance `
+      work: ['Technologies :   Node JS , MongoDB , Angular ,Micro services ,Web sockets , GIT.',
+      'Working as a full stack developer, Built a document automation system , starting from recieving documents from email to extracting key information using tesseract ocr and Genai models.',
+      'Pruning the data and creating reports based on bulk data, significantly speeding up data intake and reducing manual effort.',
+      'Improved API response time from 30 sec to under 5 sec by optimizing core algorithms, introducing databaseindexing, and refactoring a monolithic endpoint into multiple cohesive APIs with better separation of concerns.',
+      'Resolved ciritcal front end issue which helped us eliminate more than 5000 lines of redundant code .',
+      'Implemented  Caching  and pagination where data is being loaded bulk, which inturn enhanced user experience and api performance ',
+    'Received 2X Spot Awards for two high-impact contributions: resolving a critical server crash in a peer project with in an hour by analyzing end-to-end workflow, and another for eliminating 2,000+ lines of redundant code by fixing a circular dependency in Angular using ComponentFactoryResolver.']
 
     },
     {
@@ -175,11 +169,11 @@ Completed my Secondary school with 9.7 CGPA`
       location: 'Remote',
       timeline: 'march 2023 to June 2023',
       role: 'Research Intern',
-      work: `Developed a Receiver Autonomous Integrity Monitoring (RAIM) method for GNSS receivers, ensuring the accuracy and reliability of GPS positioning .
+      work: [`Developed a Receiver Autonomous Integrity Monitoring (RAIM) method for GNSS receivers, ensuring the accuracy and reliability of GPS positioning .`,
 
-              Implemented efficient C and C++ code optimized for low memory usage and high-speed processing .
+              `Implemented efficient C and C++ code optimized for low memory usage and high-speed processing .`,
 
-             Achieved 91 accuracy rate in analyzing and interpreting research results, demonstrating strong analytical skills`
+             `Achieved 91 accuracy rate in analyzing and interpreting research results, demonstrating strong analytical skills`]
     }
   //   {
   //     id: 2,
